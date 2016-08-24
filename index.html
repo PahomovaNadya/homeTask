@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html ng-app="mainApp">
+<head>
+	<title>EXCEL TEST</title>
+	<meta charset="utf-8" />
+	<link href="css/style.css" rel="stylesheet" media="screen">
+</head>
+<body ng-controller="myDataController">
+	<input type="text" id="genInp" value="" ng-model="item.cell" ng-keyup="sendDataFeedback(item,item.cell)" ng-blur="buildLocalStorageFeedback(list)" /><input type="hidden" id="numIn" value="" /><input type="hidden" id="numJn" value="" />&nbsp;&nbsp;<input id="clear-all" type="button" value="CLEAR" ng-click="clearAll()" />
+	
+	<div class="firstdivTitle"><div>&nbsp;</div><div id="txt0_0">A</div><div id="txt0_1">B</div><div id="txt0_2">C</div><div id="txt0_3">D</div><div id="txt0_4">E</div><div id="txt0_5">F</div><div id="txt0_6">G</div><div id="txt0_7">H</div><div id="txt0_8">I</div><div id="txt0_9">J</div><div id="txt0_10">K</div><div id="txt0_11">L</div></div>
+	<div class="firstdiv" ng-repeat="item in list.lines">
+		<div id="txt{{item.i}}_0">{{item.i}}</div>
+		<div><input type="text" id="txt{{item.i}}_{{j+1}}" value="{{item.cell1}}" class="inptCls" ng-model="item.cell1" ng-keyup="sendData(item,item.cell1)" ng-click="fncClkCss(item,item.cell1)" ng-blur="buildLocalStorage()" /></div>
+		<div><input type="text" id="txt{{item.i}}_{{j+2}}" value="{{item.cell2}}" class="inptCls" ng-model="item.cell2" ng-keyup="sendData(item,item.cell2)" ng-click="fncClkCss(item,item.cell2)" ng-blur="buildLocalStorage()" /></div>
+		<div><input type="text" id="txt{{item.i}}_{{j+3}}" value="{{item.cell3}}" class="inptCls" ng-model="item.cell3" ng-keyup="sendData(item,item.cell3)" ng-click="fncClkCss(item,item.cell3)" ng-blur="buildLocalStorage()" /></div>
+		<div><input type="text" id="txt{{item.i}}_{{j+4}}" value="{{item.cell4}}" class="inptCls" ng-model="item.cell4" ng-keyup="sendData(item,item.cell4)" ng-click="fncClkCss(item,item.cell4)" ng-blur="buildLocalStorage()" /></div>
+		<div><input type="text" id="txt{{item.i}}_{{j+5}}" value="{{item.cell5}}" class="inptCls" ng-model="item.cell5" ng-keyup="sendData(item,item.cell5)" ng-click="fncClkCss(item,item.cell5)" ng-blur="buildLocalStorage()" /></div>
+		<div><input type="text" id="txt{{item.i}}_{{j+6}}" value="{{item.cell6}}" class="inptCls" ng-model="item.cell6" ng-keyup="sendData(item,item.cell6)" ng-click="fncClkCss(item,item.cell6)" ng-blur="buildLocalStorage()" /></div>
+		<div><input type="text" id="txt{{item.i}}_{{j+7}}" value="{{item.cell7}}" class="inptCls" ng-model="item.cell7" ng-keyup="sendData(item,item.cell7)" ng-click="fncClkCss(item,item.cell7)" ng-blur="buildLocalStorage()" /></div>
+		<div><input type="text" id="txt{{item.i}}_{{j+8}}" value="{{item.cell8}}" class="inptCls" ng-model="item.cell8" ng-keyup="sendData(item,item.cell8)" ng-click="fncClkCss(item,item.cell8)" ng-blur="buildLocalStorage()" /></div>
+		<div><input type="text" id="txt{{item.i}}_{{j+9}}" value="{{item.cell9}}" class="inptCls" ng-model="item.cell9" ng-keyup="sendData(item,item.cell9)" ng-click="fncClkCss(item,item.cell9)" ng-blur="buildLocalStorage()" /></div>
+		<div><input type="text" id="txt{{item.i}}_{{j+10}}" value="{{item.cell10}}" class="inptCls" ng-model="item.cell10" ng-keyup="sendData(item,item.cell10)" ng-click="fncClkCss(item,item.cell10)" ng-blur="buildLocalStorage()" /></div>
+		<div><input type="text" id="txt{{item.i}}_{{j+11}}" value="{{item.cell11}}" class="inptCls" ng-model="item.cell11" ng-keyup="sendData(item,item.cell11)" ng-click="fncClkCss(item,item.cell11)" ng-blur="buildLocalStorage()" /></div>
+		<div><input type="text" id="txt{{item.i}}_{{j+12}}" value="{{item.cell12}}" class="inptCls" ng-model="item.cell12" ng-keyup="sendData(item,item.cell12)" ng-click="fncClkCss(item,item.cell12)" ng-blur="buildLocalStorage()" /></div>
+	</div>
+
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="bower_components/angular-touch/angular-touch.js"></script>
+
+	<script src="json/myJsonFile.js"></script>
+	<script src="assests/app.js"></script>
+	<script src="assests/controllers/myFunctins.js"></script>
+	<script src="assests/infrastruct/service/dataService.js"></script>
+
+</body>
+</html>
