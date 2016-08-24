@@ -1,0 +1,70 @@
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak, .ng-hide:not(.ng-hide-animate) {
+    display: none !important;
+}
+
+ng\:form {
+    display: block;
+}
+
+.ng-animate-shim {
+    visibility: hidden;
+}
+
+.ng-anchor {
+    position: absolute;
+}
+body{
+	font-size: 12px;
+	font-family: Arial;
+}
+div.firstdiv{ width: auto; position: relative; top: 0x; left:0px; }
+div.firstdivTitle > div { 
+	background: -webkit-linear-gradient(#87cfa7, #a7dfc0, #b1eacb, #bcead1, #caefdb, #caefdb, #caefdb, #def8ea, #def8ea, #def8ea, #caefdb, #caefdb, #caefdb, #bcead1, #b1eacb, #a7dfc0, #87cfa7);
+  	background: -o-linear-gradient(#87cfa7, #a7dfc0, #b1eacb, #bcead1, #caefdb, #caefdb, #caefdb, #def8ea, #def8ea, #def8ea, #caefdb, #caefdb, #caefdb, #bcead1, #b1eacb, #a7dfc0, #87cfa7);
+  	background: -moz-linear-gradient(#87cfa7, #a7dfc0, #b1eacb, #bcead1, #caefdb, #caefdb, #caefdb, #def8ea, #def8ea, #def8ea, #caefdb, #caefdb, #caefdb, #bcead1, #b1eacb, #a7dfc0, #87cfa7);
+  	background: -ms-linear-gradient(#87cfa7, #a7dfc0, #b1eacb, #bcead1, #caefdb, #caefdb, #caefdb, #def8ea, #def8ea, #def8ea, #caefdb, #caefdb, #caefdb, #bcead1, #b1eacb, #a7dfc0, #87cfa7);
+  	background: linear-gradient(#87cfa7, #a7dfc0, #b1eacb, #bcead1, #caefdb, #caefdb, #caefdb, #def8ea, #def8ea, #def8ea, #caefdb, #caefdb, #caefdb, #bcead1, #b1eacb, #a7dfc0, #87cfa7);  
+	width: 80px; 
+	height: 25px; 
+	line-height: 25px;
+	float: left; 
+	overflow: hidden; 
+	border: 1px solid #d4d4d4; 
+	font-weight: bold; 
+	color: #898787; 
+}
+div.firstdivTitle > div:first-child{ width: 20px; height: 25px; }
+div.firstdivTitle > div:last-child{ float:none; }
+div { text-align: center; }
+div.firstdiv > div:first-child{ width: 20px; height: 25px; line-height: 25px; font-weight: bold; color: #898787; }
+div.firstdiv > div { width: 80px; height: 25px; float: left; overflow: hidden; border: 1px solid #d4d4d4;  }
+div.firstdiv > div:hover { width: 78px; height: 23px; border: 2px solid #217346; }
+div.firstdiv > div:first-child:hover{ width: 20px; height: 25px; border: 1px solid #217346; }
+div.firstdiv > div:last-child{ float:none; }
+.inptCls { width: 80px; height: 25px; line-height: 25px; border: 0px; color: #898787; }
+#genInp { 
+	width: 500px; 
+	height: 25px; 
+	border: 1px solid #d4d4d4; 
+	margin-bottom: 8px; 
+	background: -webkit-linear-gradient(#caefdb, #caefdb, #def8ea, #def8ea, #def8ea, #def8ea, #def8ea, #def8ea, #def8ea, #def8ea, #def8ea, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #caefdb);
+  	background: -o-linear-gradient(#caefdb, #caefdb, #def8ea, #def8ea, #def8ea, #def8ea, #def8ea, #def8ea, #def8ea, #def8ea, #def8ea, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #caefdb);
+  	background: -moz-linear-gradient(#caefdb, #caefdb, #def8ea, #def8ea, #def8ea, #def8ea, #def8ea, #def8ea, #def8ea, #def8ea, #def8ea, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #caefdb);
+  	background: -ms-linear-gradient(#caefdb, #caefdb, #def8ea, #def8ea, #def8ea, #def8ea, #def8ea, #def8ea, #def8ea, #def8ea, #def8ea, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #caefdb);
+  	background: linear-gradient(#caefdb, #caefdb, #def8ea, #def8ea, #def8ea, #def8ea, #def8ea, #def8ea, #def8ea, #def8ea, #def8ea, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #caefdb);  
+	color: #898787; 
+}
+#clear-all{
+	background: -webkit-linear-gradient(#87cfa7, #a7dfc0, #b1eacb, #bcead1, #caefdb, #caefdb, #caefdb, #def8ea, #def8ea, #def8ea, #caefdb, #caefdb, #caefdb, #bcead1, #b1eacb, #a7dfc0, #87cfa7);
+  	background: -o-linear-gradient(#87cfa7, #a7dfc0, #b1eacb, #bcead1, #caefdb, #caefdb, #caefdb, #def8ea, #def8ea, #def8ea, #caefdb, #caefdb, #caefdb, #bcead1, #b1eacb, #a7dfc0, #87cfa7);
+  	background: -moz-linear-gradient(#87cfa7, #a7dfc0, #b1eacb, #bcead1, #caefdb, #caefdb, #caefdb, #def8ea, #def8ea, #def8ea, #caefdb, #caefdb, #caefdb, #bcead1, #b1eacb, #a7dfc0, #87cfa7);
+  	background: -ms-linear-gradient(#87cfa7, #a7dfc0, #b1eacb, #bcead1, #caefdb, #caefdb, #caefdb, #def8ea, #def8ea, #def8ea, #caefdb, #caefdb, #caefdb, #bcead1, #b1eacb, #a7dfc0, #87cfa7);
+  	background: linear-gradient(#87cfa7, #a7dfc0, #b1eacb, #bcead1, #caefdb, #caefdb, #caefdb, #def8ea, #def8ea, #def8ea, #caefdb, #caefdb, #caefdb, #bcead1, #b1eacb, #a7dfc0, #87cfa7);  
+	width: 80px; 
+	height: 30px; 
+	line-height: 25px;
+	color: #217346;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+}
