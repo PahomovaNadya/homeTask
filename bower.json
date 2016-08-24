@@ -1,0 +1,24 @@
+{
+  "name": "AngularJsHomeTask",
+  "authors": [
+    "arnoldsimha <Nadya.Pahomova@williamhill.com>"
+  ],
+  "description": "William Hill Home Task",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-touch": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "angular-sanitize": "^1.5.8",
+    "jquery": "^3.1.0"
+  }
+}
